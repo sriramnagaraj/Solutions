@@ -59,7 +59,9 @@ int main(int argc, char *argv[]) {
            }
        }
    }
-      
+
+   printf("model count %d \n", model_count);
+   
    printf("Model Frequency Count:\n");
    for (int i = 0; i < model_count; i++) {
        printf("%s: %ld\n", models[i].model, models[i].count);
